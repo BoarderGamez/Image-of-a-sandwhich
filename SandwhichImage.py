@@ -12,6 +12,5 @@ photo = ImageTk.PhotoImage(image)
 # Create a label to hold the image
 label = tk.Label(root, image=photo)
 label.pack(padx=20, pady=20)
-
 # Run the app
 root.mainloop()
